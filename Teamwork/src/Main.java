@@ -20,4 +20,16 @@ public class Main {
 
         return min;
     }
+
+    public static int countEven(int[] arr) {
+        int counter = 0;
+
+        for (int i : arr) {
+            if (i%2 == 0) {
+                counter++;
+            }
+        }
+
+        return counter;
+    }
 }
