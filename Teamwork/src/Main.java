@@ -71,5 +71,16 @@ public class Main {
 
         return sum;
     }
+    public static int sumEven(int[] arr) {
+        int sum = 0;
+
+        for (int i : arr) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+
+        return sum;
+    }
 }
 
