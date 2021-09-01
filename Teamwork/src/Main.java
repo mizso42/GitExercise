@@ -10,7 +10,6 @@ public class Main {
         for (int i : ints) {
             i = rand.nextInt(100) + 1;
         }
-
     }
 
     public static int maxOfArray(int[] intArray) {
@@ -36,7 +35,6 @@ public class Main {
         return numberOfOdds;
     }
 
-
     public static int getMinFromArray(int[] arr) {
         int min = arr[0];
 
@@ -45,6 +43,7 @@ public class Main {
                 min = arr[i];
             }
         }
+
         return min;
     }
 
@@ -52,10 +51,12 @@ public class Main {
         int counter = 0;
 
         for (int i : arr) {
+
             if (i % 2 == 0) {
                 counter++;
             }
         }
+
         return counter;
     }
 }
