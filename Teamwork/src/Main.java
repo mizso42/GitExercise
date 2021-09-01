@@ -59,5 +59,17 @@ public class Main {
 
         return counter;
     }
+
+    public static int sumOdd(int[] arr) {
+        int sum = 0;
+
+        for (int i : arr) {
+            if (i % 2 == 1) {
+                sum += i;
+            }
+        }
+
+        return sum;
+    }
 }
 
